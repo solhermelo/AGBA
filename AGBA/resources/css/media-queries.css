@@ -1,0 +1,917 @@
+/* Laptop L View */
+@media screen and (max-width: 1440px) {
+    section {
+        height: auto;
+    }
+}
+
+/* Laptop L View */
+@media screen and (max-width: 1200px) {
+
+    .menu {
+        width: 100%;
+    }
+
+    .main-nav a { 
+        display: block; 
+        width: 140px;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+       margin: 0 auto;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    section {
+        padding: 40px;
+        height: auto;
+    }
+
+    .plan-estudio-box {
+        display: block;
+    }
+
+    .plan-estudios-materias {
+        min-height: auto;
+    }
+
+    .anos-titulo {
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .planes-dos .plan-estudios-materias {
+        min-height: auto;
+    }
+
+    .plan-estudios-box h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .anos-titulo p {
+        font-size: 14px;
+    }
+
+    .plan-estudios-materias p {
+        font-size: 14px;
+    }
+
+    .planes-dos h3 {
+        margin-top: 50px;
+    }
+
+    .contacto-box {
+        display: block;
+    }
+
+    .sectores {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .section-contacto h2 {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -55px;
+    }
+
+    .encontranos-map {
+        margin: 0 auto;
+        margin-left: -40px;
+    }
+
+    .encontranos-map p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .main-nav:hover .linea:after {
+        margin-top: 10px;
+        margin-left: 40px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .main-nav a { 
+        display: block; 
+        width: 135px;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1054px) {
+        
+    .mobile-nav-icon {
+        display: block;
+        float: right;
+        margin-top: -40px;
+        margin-right: 50px;
+    }
+
+    nav { 
+        height: auto;
+        display: block; 
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .linea { 
+        border-left: 0px;
+    }
+
+    .main-nav .linea:before {
+        display: block;
+        height: 2px;
+        background-color: #f1f1f1;
+        content: " ";
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-nav { 
+        display: none;
+        margin-top: 10px;
+     }
+
+    .main-nav a { 
+        display: block; 
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .main-nav:hover .dropdown {  display: none; }
+
+    .main-nav:hover .linea:after {
+        display: none;
+    }
+
+    .dropdown {
+        width: 100%;
+        padding-top: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .dropdown-1,
+    .dropdown-2,
+    .dropdown-3,
+    .dropdown-4 {
+        display: none;
+    }
+
+    .dropdown .main-nav {
+        border-bottom: 0px;
+        box-shadow: 0 0px 0px #efefef00;
+        background-color: #f1f1f1;
+        padding: 10px;
+        margin: 2px;
+    }
+
+    .dropdown .main-nav a {
+        padding: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+    .slider-boot-me {
+        padding-top: 100px;
+    }
+
+}
+
+/* Tablet View */
+@media screen and (max-width: 768px) {
+    .mobile-nav-icon {
+        margin-top: -20pxpx;
+        margin-right: 10px;
+    }
+
+    .slider-boot-me {
+        padding-top: 105px;
+    }
+
+    .logo {
+        width: 250%;
+        padding-left: 10px;
+    }
+
+    .carousel-me .caption-me a {
+        display: none;
+    } 
+
+    .titulo {
+        padding-top: 30px;
+    }
+
+    .titulo h2 {
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .servicios-box i {
+        font-size: 80px;
+    }
+
+    .servicios-box {
+        margin-top: 30px;
+    }
+
+    .servicios-container {
+        justify-content: space-between;
+    }
+
+    .servicios-box h3 {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .section-novedades h2 {
+        margin-top: -10px;
+        font-size: 30px;
+    }
+
+    .novedades-box {
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .novedades-img h3 {
+        margin-top: 20px;
+        font-size: 14px;
+        text-transform: none;
+        color: #555;
+        font-weight: 400;
+        height: 30px;
+    }
+
+    .btn-1 {
+        width: 90px;
+        font-size: 13px;
+    }
+
+    .novedades-img a {
+        margin-top: 15px;
+    }
+
+
+    .section-contacto input, 
+    .section-contacto textarea,
+    .section-contacto select {font-size: 14px; }
+    
+    label { display: none; }
+    
+     .form {
+        width: 90%;
+    }
+
+    .form-contacto h2 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .info-box {
+        display: none;
+    }
+
+    .info-titulo {
+        display: none;
+    }
+
+    .footer-box {
+        justify-content: space-between;
+    }
+
+    .aside-novedades {
+        display: none;
+    }
+
+    .copy-long {
+        width: 90%;
+        padding: 30px;
+        margin-right: 0px;
+        margin: 0 auto;
+    }
+
+    .copy-long p {
+        font-size: 15px;
+        line-height: 180%;
+        text-align: justify;
+    }
+    .section-textos h2 {
+        font-size: 25px;
+        height: 90px;
+    }
+
+    .qs-autoridades h3 {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+
+    .separador-autoridades {
+        margin-bottom: 20px;
+    }
+
+    .qs-autoridades p span {
+        font-size: 16px;
+    }
+
+    .qs-autoridades p {
+        font-size: 14px;
+    }
+
+    .copy-long h3 {
+        font-size: 16px;
+    }
+
+    h2:after {
+        margin-top: 20px;
+    }
+
+    .section-textos {
+        padding-top: 150px;
+    }
+
+    .gestalt-perls {
+        padding: 30px;
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .gestalt-perls img {
+        height: 160px;
+    }
+
+    .gestalt-perls p {
+        margin-right: 15px;
+        text-align: left;
+    }
+
+    .seccion-profesionales {
+        padding: 10px auto;
+        grid-template-columns: 30% 30% 30%;
+        grid-row-gap: 0px;
+        grid-gap: 30px;
+        margin: 0 auto;
+    }
+
+    .profesionales-box {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .profesionales-box p {
+        line-height: 100%;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .sac-titulos ul li p {
+        font-size: 14px;
+    }
+
+    .centro-admisiones-box {
+        width: 100%;
+        padding: 0 60px;
+    }
+
+    .centro-admisiones-box .centro-admisiones p {
+        font-size: 16px;
+    }
+
+    .centro-admisiones p:nth-child(1){
+        font-weight: 400;
+    }
+
+    .centro-admisiones-box p {
+        font-size: 14px;
+    }
+
+    .centro-admisiones-terapeutas h3 {
+        font-size: 16px;
+    }
+
+    .centro-admisiones-terapeutas ul li {
+        font-size: 14px;
+    }
+
+    .centro-admisiones-terapeutas h4 {
+        font-size: 16px;
+    }
+
+    .centro-admisiones-terapeutas ul {
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 30px;
+    }
+
+    .copy-long-admisiones {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .adultos-p p{
+        font-size: 15px;
+    }
+
+    .adultos-article div {
+        margin-top: -10px;
+    }
+
+    .adultos-article div p:last-child {
+        margin-bottom: 20px;
+    }
+
+    .copy-long ul li {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .formacion-box p:nth-child(2){
+        font-size: 17px;
+    }
+
+    .formacion-acordion .formacion-title .btn {
+       font-size: 15px;
+    }
+
+    .formacion-acordion {
+        width: 100%;
+    }
+
+    .formacion-detalles div h3 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .formacion-detalles {
+        padding: 0 100px;
+    }
+
+    .formacion-detalles div p,
+    .formacion-detalles div ul li {
+        font-size: 14px;
+    }
+
+    .formacion-videos {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .formacion-videos iframe {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .copy-long-docentes {
+        width: 100%;
+    }
+
+    .docentes-nombre {
+        grid-template-columns: 40% 40%;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+
+    .copy-long-docentes p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .fechas-imagenes img {
+        width: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .section-fechas-convivencia h3 {
+        font-size: 20px;
+    }
+
+    .section-fechas-convivencia h3:after {
+        display: block;
+        height: 3px;
+        background-color: #f1f1f1;
+        content: " ";
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .fechas-convivencia-box {
+        margin-bottom: 60px;
+    }
+
+    .section-fechas-convivencia h2 {
+        margin-bottom: 30px;
+    }
+
+    .medios-transporte-box ol li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .medios-transporte-box {
+        padding: 10px;
+    }
+
+    .img-como-llego img {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .copy-long-actividades {
+        display: block;
+    }
+
+    .card-actividades-img img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .cards-actividades h3 {
+        padding: 0px;
+        padding-top: 20px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .cards-actividades {
+        height: auto;
+        border: 0px solid rgba(85, 85, 85, 0.205);
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 500px) {
+    .slider-boot-me {
+        padding-top: 80px;
+    }
+    .servicios-box {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .servicios-container {
+        display: block;
+    }
+
+    .servicios-box i {
+        font-size: 90px;
+    }
+
+    .titulo h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .servicios-box h3 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 90px;
+        font-size: 14px;
+    }
+
+    .servicios-box a {
+        margin-top: 5px;
+    }
+
+    .novedades-box {
+        display: block;
+    }
+
+    .novedades-img {
+        margin: 0 auto;
+    }
+
+    .novedades-img {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .novedades-img h3 {
+        font-size: 16px;
+        height: 0px;
+    }
+
+    .novedades-img a {
+        margin-top: 25px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .section-footer { 
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer-box {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .info-box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .info-titulo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .donde-box {
+        margin: 0 auto;
+    }
+
+    .copy-long {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-textos h2 {
+        height: 55px;
+        padding: 10px 5px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2:after {
+        margin-top: 10px;
+    }
+
+    .copy-long h3 {
+        font-size: 16px;
+    }
+
+    .copy-long p {
+        font-size: 14px;
+    }
+
+    .qs-autoridades h3 {
+        font-size: 16px;
+    }
+
+    .separador-autoridades {
+        font-size: 15px;
+    }
+
+    .qs-autoridades p span {
+        margin-bottom: -5px;
+        font-size: 16px;
+    }
+
+    .gestalt-perls {
+        display: block;
+        padding: 20px;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .gestalt-perls img {
+        height: 150px;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .gestalt-perls p {
+        margin-top: 20px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .seccion-profesionales {
+        padding: 10px 30px;
+        margin-top: 0px;
+        grid-template-columns: 100%;
+        grid-row-gap: 10px;
+    }
+
+    .section-sac h2 {
+        font-size: 16px;
+        height: auto;
+        width: 100%;
+    }
+
+    .centro-admisiones-box {
+        padding: 0px;
+    }
+
+    .centro-admisiones-box .centro-admisiones p {
+        line-height: 120%;
+    }
+
+    .centro-admisiones-terapeutas ul {
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+
+    .centro-admisiones-terapeutas h3 {
+        margin-top: 30px;
+    }
+
+    .centro-admisiones-terapeutas h4 {
+        margin-top: 20px;
+    }
+
+    .copy-long-admisiones {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .copy-long-admisiones .centro-admisiones-box {
+        margin-bottom: 30px;
+    }
+
+    .section-naf h2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .section-naf h3 {
+        font-size: 15px;
+    }
+
+    .formacion-detalles {
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .formacion-videos {
+        display: block;
+        width: 100%;
+    }
+
+    .formacion-videos iframe {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .plan-estudios-materias p {
+        text-align: left;
+    }
+
+    .docentes-nombre {
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .docentes-nombre:last-child {
+        margin-top: 10px;
+    }
+
+    .fechas-imagenes img {
+        width: 40px;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .section-fechas-convivencia h3 {
+        font-size: 17px;
+    }
+
+    .medios-transporte h3:before {
+        height: 3px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .medios-transporte-box {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .medios-transporte-box ol {
+        padding: 0 20px;
+    }
+
+    .img-como-llego img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section-residencias h2 {
+        font-size: 15px;
+        height: auto;
+    }
+
+    .residencias-box span:first-child p {
+        font-size: 16px;
+    }
+
+    .section-actividades h2 {
+        font-size: 17px;
+        height: auto;
+    }
+
+    .cards-actividades {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .card-actividades-img img {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .copy-long-actividades {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+
+    .cards-actividades h3 {
+        padding: 0px;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .copy-long-grupos {
+        display: inline-block;
+    }
+  
+    .grupos-orientacion-box img {
+        width: 100%;
+    }
+   
+    .orientacion-textos {
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+
+    .recomendaciones-psic .orientacion-textos {
+        width: 100%;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .section-contacto h2 {
+        height: auto;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .sectores {
+        padding: 5px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .contacto-info-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto-box {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+}
